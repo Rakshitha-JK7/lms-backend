@@ -1,0 +1,29 @@
+{
+  "name": "lms_backend",
+  "version": "1.0.0",
+  "description": "Creating LMS softeware backend",
+  "keywords": [
+    "lms"
+  ],
+  "license": "ISC",
+  "author": "Rakshitha J K",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "node src/index.js",
+    "migrate": "node src/migrate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
