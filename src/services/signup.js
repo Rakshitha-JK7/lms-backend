@@ -9,10 +9,10 @@ export const adduser = async(fname,lname,age,email,password,role,usn,batch, desi
       return result;
     }
   } catch (error) {
-    return{
-      status:false,
-      debugmessage:error.message,
-    };
+      return{
+        status:false,
+        debugmessage:error.message,
+      };
   }
 };
 
